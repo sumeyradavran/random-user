@@ -1,3 +1,5 @@
+Simple profile Search app getting data through RandomUser Api using React, Redux, React Router and Redux Form.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

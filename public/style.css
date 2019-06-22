@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #000;
+  font-family: 'Playfair Display', serif;
+  white-space: nowrap;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  background-color: #5493ce;
+  padding: 10px;
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.header > * {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+}
+.form {
+  margin-bottom: 20px;
+}
+button {
+  border: none;
+	background-color:#79a6d1;
+	border-radius:6px;
+  display:inline-block;
+  outline: none;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:20px;
+	padding:10px 49px;
+}
+button:hover {
+	background:linear-gradient(to bottom, #5697d4 5%, #79a6d1 100%);
+  background-color:#5697d4;
+  position: relative;
+  top: 2px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.flex-direction {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.form-element {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.form-element > * {
+  min-width: 250px;
+  max-width: 360px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding-right: 10px;
+}
+
+.form-element > label > input,
+.form-element > label > select {
+  width: 75%;
+  min-width: 130px;
+  max-width: 200px;
+  height: 26px;
+  border: none;
+  border-bottom: 1px solid #333;
+  margin-left: 10px;
+}
+.form-element > label > input:focus,
+.form-element > label > select:focus {
+  outline: none;
+  border-bottom: 1px solid #5493ce;
+}
+.radio {
+  width: 25%;
+  margin-top: 10px;
+}
+.radio > label {
+  padding-right: 10px;
+  position: relative;
+  top: -10px
+}
+.radio > label > input {
+  text-align: end;
+  margin: 6px 20px;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 2px
+}
+.button {
+  text-align: center;
+}
+.profile-result {
+  width: 175px;
+  height: 255px;
+  overflow: hidden;
+  text-align: center;
+  border: 1px solid #5493ce;
+  padding: 10px;
+  margin: 10px;
+}
+.profile-result p {
+  text-transform: capitalize;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 6px;
+}
+.name {
+  font-size: 18px;
+  font-weight: 400;
+}
+.profile-result a {
+  border: none;
+	background-color:#79a6d1;
+	border-radius:6px;
+  display:inline-block;
+  outline: none;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:16px;
+	padding:10px 16px;
+}
+.profile-result a:hover {
+  background:linear-gradient(to bottom, #5697d4 5%, #79a6d1 100%);
+  background-color:#5697d4;
+  position: relative;
+  top: 2px;
+}
+
+.results {
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.profile-page {
+  width: 50%;
+  min-width: 450px;
+  border: 1px solid #5493ce;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.6em;
+  padding: 10px;
+  overflow: hidden;
+}
+.profile-page > a{
+  border: none;
+	background-color:#79a6d1;
+	border-radius:6px;
+  display:inline-block;
+  outline: none;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:16px;
+	padding:10px 16px;
+  margin-top: 10px;
+}
+.profile-page > a:hover {
+  background:linear-gradient(to bottom, #5697d4 5%, #79a6d1 100%);
+  background-color:#5697d4;
+  position: relative;
+  top: 2px;
+}
+.info {
+  display: flex;
+}
+.info img {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.info p {
+  font-size: 16px;
+  line-height: 1.6;
+  text-transform: capitalize;
+}
+.email {
+  text-transform: none;
+  font-size: 16px;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 600px) {
+  * {
+    font-size: 16px;
+  }
+  .form-element > * {
+    width: 100%;
+  }
+  .radio > label > input {
+    width: 16px;
+    height: 16px;
+  }
+}
