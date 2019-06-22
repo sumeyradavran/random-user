@@ -1,4 +1,4 @@
-Simple profile Search app getting data through RandomUser Api using React, Redux, React Router and Redux Form.
+Simple profile Search app getting data through RandomUser Api using React, Redux, React Router and Redux Form. Live version can be found at https://sumeyradavran.github.io/random-user/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
